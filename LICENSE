@@ -1,0 +1,139 @@
+Functional Source License, Version 1.1, Apache 2.0 Future License
+
+Abbreviation: FSL-1.1-Apache-2.0
+
+Notice
+
+Copyright 2026 Checkmate Labs
+
+Terms and Conditions
+
+Licensor ("We")
+
+The Licensor is Checkmate Labs.
+
+The Software
+
+The "Software" is the "PwnBot" software and associated documentation files,
+in source or object form, made available by the Licensor under this
+License, including any subsequent version of this Software released by the
+Licensor under this License.
+
+License Grant
+
+Subject to your compliance with this License, the Licensor hereby grants
+you a non-exclusive, worldwide, non-transferable, non-sublicensable,
+royalty-free license to use, copy, distribute, make available, and prepare
+derivative works of the Software, in each case subject to the limitations
+and conditions below.
+
+Limitations
+
+You may not make the functionality of the Software or a modified version
+available to third parties as a service or otherwise provide it as a
+hosted or managed service, where the service provides users with access to
+any substantial set of the features or functionality of the Software.
+
+You may not move, change, disable, or circumvent any license key
+functionality in the Software, and you may not remove or obscure any
+functionality in the Software that is protected by a license key.
+
+You may not alter, remove, or obscure any licensing, copyright, or other
+notices of the Licensor in the Software. Any use of the Licensor's
+trademarks is subject to applicable law.
+
+For the avoidance of doubt: deploying the Software to protect your own
+website, application, or API — including one you operate commercially and
+sell access to — is not "making the functionality available to third
+parties as a service" and is fully permitted under this License. What is
+not permitted is reselling PwnBot itself, or a service that substantially
+reproduces its bot-detection/rate-limiting functionality, to third parties
+as a hosted or managed offering.
+
+Patents
+
+The Licensor hereby grants you a license, under any patent claims the
+Licensor can license, or becomes able to license, to make, have made, use,
+sell, offer for sale, import and have imported the Software, in each case
+subject to the limitations and conditions in this License. This license
+does not cover any patent claims that you cause to be infringed by
+modifications or additions to the Software. If you or your company make
+any written claim that the Software infringes or contributes to
+infringement of any patent, your patent license for the Software granted
+under these terms ends immediately. If your company makes such a claim,
+your patent license ends immediately for work on behalf of your company.
+
+Notices
+
+You must ensure that anyone who gets a copy of any part of the Software
+from you also gets a copy of these terms.
+
+If you modify the Software, you must include in any modified copies of the
+Software a prominent notice stating that you have modified the Software.
+
+No Other Rights
+
+These terms do not imply any licenses other than those expressly granted
+in these terms.
+
+Termination
+
+If you use the Software in violation of these terms, such use is not
+licensed, and your licenses will automatically terminate. If the Licensor
+provides you with a notice of your violation, and you cease all violation
+of this License no later than 30 days after you receive that notice, your
+licenses will be reinstated retroactively. However, if you violate these
+terms after such reinstatement, any additional violation of these terms
+will cause your licenses to terminate automatically and permanently.
+
+No Liability
+
+As far as the law allows, the Software comes as is, without any warranty
+or condition, and the Licensor will not be liable to you for any damages
+arising out of these terms or the use or nature of the Software, under any
+kind of legal claim.
+
+Future License
+
+Change Date: 2030-09-24 (the fourth anniversary of the date the Licensor
+first made the Software available under this License).
+
+Change License: Apache License, Version 2.0.
+
+Effective on the Change Date, or the fourth anniversary of the first
+publicly available distribution of a specific version of the Software
+under this License, whichever comes first, the Licensor hereby grants you
+rights to that specific version of the Software under the Change License,
+and the rights granted in the paragraph above terminate for that version.
+
+-----------------------------------------------------------------------------
+
+Notes for maintainers (not part of the license; delete before publishing if
+you prefer a clean file):
+
+- This was reconstructed from memory of the public Functional Source
+  License text (fsl.software, created by Sentry for exactly this
+  "protect against hosted-service competitors now, convert to a
+  standard permissive license later" scenario). Before publishing, pull
+  the exact current canonical text from fsl.software and diff it against
+  this file — treat this as a faithful-effort draft, not a verified
+  transcription.
+- Confirm "Checkmate Labs" is the correct legal entity name to hold
+  copyright and be named Licensor.
+- The License Key / circumvention clause is boilerplate from the standard
+  FSL text; PwnBot doesn't currently have license-key-gated functionality,
+  so it's inert today but costs nothing to leave in for future use (e.g. a
+  managed-cloud tier). Remove it if it's confusing to reviewers.
+- The four-year Change Date (2030-09-24) mirrors the common BUSL/CockroachDB
+  default — shorten or lengthen based on how long you expect to need the
+  competitive protection. FSL also has an official 2-year-default variant
+  if four years feels too long for a fast-moving security product.
+- Unlike Business Source License 1.1, FSL carries no third-party naming
+  covenant, so pairing it with Apache-2.0 as the Change License (rather
+  than a GPL-compatible license) is consistent — this avoids the
+  inconsistency a BUSL draft would have had.
+- This is a first draft for internal review, not legal advice — have an
+  actual lawyer review it before this repository goes public or you rely
+  on it commercially, especially the "for the avoidance of doubt" paragraph
+  above, which I added to make the self-hosting-for-your-own-product
+  permission explicit and is not part of Sentry's original template.
